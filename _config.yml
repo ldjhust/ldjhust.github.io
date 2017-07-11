@@ -1,7 +1,7 @@
-name: "Blog·Tanky Woo"
-description: "Tanky Woo's Blog, focus on Python, Linux, Gentoo, Mac OS, Vim, Open Source and so on."
-url: "http://blog.tankywoo.com"
+name: "Blog·Leo Li"
+description: "Leo Li's blog, focus on Linux, Python, software compilation and so on."
+url: "http://ldjhust.github.io"
 markdown: redcarpet
 highlighter: pygments
-exclude: ["fabfile.py*", "*.bak"]
+exclude: ["*.bak"]
 permalink: /:year/:month/:day/:title.html
