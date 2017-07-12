@@ -11,7 +11,7 @@ comments: false
 当网络处在代理之后时，各种需要联网的软件并不能直接正常工作，也需相应的配置代理，本文记录常用软件的代理设置方式，以作备忘。
 
 1. `gem`
-~~~
+~~~shell
 # 添加源时需要提供代理
 gem source --add https://gems.ruby-china.org --http-proxy http://<proxy host>:<port>
 
@@ -20,7 +20,7 @@ gem install <package> --http-proxy http://<proxy host>:<port>
 ~~~
 
 2. `pip`
-~~~
+~~~shell
 # 安装库时提供代理
 sudo pip install <package> --proxy http://<proxy host>:<port>
 ~~~
