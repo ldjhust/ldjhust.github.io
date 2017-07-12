@@ -1,7 +1,9 @@
 name: "Blog·Leo Li"
 description: "Leo Li's blog, focus on Linux, Python, software compilation and so on."
 url: "http://ldjhust.github.io"
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: pygments
 exclude: ["*.bak"]
 permalink: /:year/:month/:day/:title.html
