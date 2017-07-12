@@ -4,6 +4,5 @@ url: "http://ldjhust.github.io"
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: pygments
 exclude: ["*.bak"]
 permalink: /:year/:month/:day/:title.html

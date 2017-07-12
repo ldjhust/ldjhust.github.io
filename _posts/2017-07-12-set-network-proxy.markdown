@@ -27,4 +27,19 @@ gem install <package> --http-proxy http://<proxy host>:<port>
 sudo pip install <package> --proxy http://<proxy host>:<port>
 ```
 
+3 `apt`
+
+```
+# 在配置文件中配置代理 /etc/apt/apt.conf
+Acquire::http::Proxy "http://<proxy host>:<port>"
+```
+
+4 `ping` `curl`
+
+```
+# 设置环境变量 ~/.bash_profile
+export http_proxy=http://<proxy host>:<port>
+export https_proxy=${http_proxy}
+```
+
 **持续更新中...**
