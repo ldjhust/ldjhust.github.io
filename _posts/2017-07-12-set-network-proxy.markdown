@@ -12,7 +12,7 @@ comments: false
 
 1. `gem`
 
-```shell
+```
 # 添加源时需要提供代理
 gem source --add https://gems.ruby-china.org --http-proxy http://<proxy host>:<port>
 
@@ -22,7 +22,7 @@ gem install <package> --http-proxy http://<proxy host>:<port>
 
 2. `pip`
 
-```shell
+```
 # 安装库时提供代理
 sudo pip install <package> --proxy http://<proxy host>:<port>
 ```
