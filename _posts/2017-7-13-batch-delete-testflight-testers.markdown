@@ -6,11 +6,11 @@ categories: iOS发布
 comments: false
 ---
 
-![](../imgs/batch_delete_testflight_testers/title.jpg)
+![](https://github.com/ldjhust/ldjhust.github.io/blob/master/imgs/batch_delete_testflight_testers/title.jpg?raw=true)
 
 `TestFlight`是苹果为开发者提供的正式发布前灰度测试功能，使用简单，只需要用户邮箱即可邀请用户参与测试，每次可最多邀请`2000`名用户参与测试。苹果今年四月对`TestFlight`进行一次改版，其中删除了测试人员编辑页面全选的功能。
 
-![](../imgs/batch_delete_testflight_testers/1.png)
+![](https://github.com/ldjhust/ldjhust.github.io/blob/master/imgs/batch_delete_testflight_testers/1.png?raw=true)
 
 如果你也跟我一样每次做`TestFlight`发布时都需要替换所有的邮箱，那么你就会跟我一样对苹果的这一变更感受到深深的伤害，尤其是听说苹果在今年的`WWDC`上说将会增加`TestFlight`的`2000`测试人员上限至`10000`时。
 
@@ -55,11 +55,11 @@ comments: false
 
 1、 打开拓展程序管理界面
 
-![](../imgs/batch_delete_testflight_testers/2.png)
+![](https://github.com/ldjhust/ldjhust.github.io/blob/master/imgs/batch_delete_testflight_testers/2.png?raw=true)
 
 2、 选择获取更多拓展程序
 
-![](../imgs/batch_delete_testflight_testers/3.png)
+![](https://github.com/ldjhust/ldjhust.github.io/blob/master/imgs/batch_delete_testflight_testers/3.png?raw=true)
 
 3、 搜索`tampermonkey`并安装
 
@@ -68,15 +68,15 @@ comments: false
 ### 安装自定义脚本
 1、 添加新脚本
 
-![](../imgs/batch_delete_testflight_testers/4.png)
+![](https://github.com/ldjhust/ldjhust.github.io/blob/master/imgs/batch_delete_testflight_testers/4.png?raw=true)
 
 2、 用前面分享给大家的代码替换界面编辑器里面的所有代码
 
-![](../imgs/batch_delete_testflight_testers/5.png)
+![](https://github.com/ldjhust/ldjhust.github.io/blob/master/imgs/batch_delete_testflight_testers/5.png?raw=true)
 
 3、 保存
 
-![](../imgs/batch_delete_testflight_testers/6.png)
+![](https://github.com/ldjhust/ldjhust.github.io/blob/master/imgs/batch_delete_testflight_testers/6.png?raw=true)
 
 经过上面几步之后，准备及安装工作都已经OK了，下面解释一下实际的用法。
 
