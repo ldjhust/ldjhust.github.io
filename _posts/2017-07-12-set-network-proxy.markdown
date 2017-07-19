@@ -42,4 +42,13 @@ export http_proxy=http://<proxy host>:<port>
 export https_proxy=${http_proxy}
 ```
 
+5 `npm`
+
+```
+npm config set https-proxy "https://<proxy host>:<port>/"
+npm config set proxy "http://<proxy host>:<port>/"
+npm config set registry "https://registry.npm.taobao.org"
+git config --global http.proxy https://<proxy host>:<port>
+```
+
 **持续更新中...**
