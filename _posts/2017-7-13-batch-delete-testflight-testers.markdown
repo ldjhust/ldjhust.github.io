@@ -6,7 +6,7 @@ categories: iOS发布
 comments: false
 ---
 
-![](https://github.com/ldjhust/ldjhust.github.io/blob/master/imgs/batch_delete_testflight_testers/title.jpg?raw=true)
+![](https://cdn.pixabay.com/photo/2017/03/04/14/19/helicopter-2116170_960_720.jpg)
 
 `TestFlight`是苹果为开发者提供的正式发布前灰度测试功能，使用简单，只需要用户邮箱即可邀请用户参与测试，每次可最多邀请`2000`名用户参与测试。苹果今年四月对`TestFlight`进行一次改版，其中删除了测试人员编辑页面全选的功能。
 
