@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "技术 - pip 配置文件详解"
+title: "技术 - pip 配置文件详解"
 date: 2017-08-21 11:00
 categories: 技术
 comments: false
