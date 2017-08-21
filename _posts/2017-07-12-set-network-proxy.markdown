@@ -6,7 +6,7 @@ categories: 网络
 comments: false
 ---
 
-![](https://picabstract-preview-ftn.weiyun.com:8443/ftn_pic_abs_v2/8238a957d5b6f26e3fe1ab81eae6b45755a71fbbda4c67e8b60c6017e6dc1e3ef13a1e30509289ce5cf3ce4c8aadaac8?pictype=scale&from=30113&version=2.0.0.2&uin=471391503&fname=greylag-goose-2139296_1280.jpg&size=1024)
+![](https://cdn.pixabay.com/photo/2017/07/25/18/56/lemon-2539163_960_720.jpg)
 
 当网络处在代理之后时，各种需要联网的软件并不能直接正常工作，也需相应的配置代理，本文记录常用软件的代理设置方式，以作备忘。
 
