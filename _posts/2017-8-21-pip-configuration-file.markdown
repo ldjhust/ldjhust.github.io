@@ -10,14 +10,14 @@ comments: false
 
 `pip` 是 `python` 的包管理工具，利用 `pip` 我们可以非常轻松的管理第三方库。这里简单罗列一下 `pip` 的配置文件的常用配置。`pip` 配置文件名为 `pip.conf`，存在于当前用户目录下——`~/.pip/pip.conf`只对当前用户起作用，存在于`/etc/pip.conf`目录下对所有用户起作用。
 
-1. 网络代理
+* **网络代理**
 
 ```
 [global]
 proxy = http://<proxy host>:<proxy port>
 ```
 
-2. 设置新的源，这里使用阿里的源，速度比较快
+* **设置新的源，这里使用阿里的源，速度比较快**
 
 ```
 [global]
