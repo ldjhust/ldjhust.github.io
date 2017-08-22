@@ -14,3 +14,6 @@ comments: false
 2. [也许，这样理解HTTPS更容易](http://kb.cnblogs.com/page/563885/)
 
 3. [编写Shell脚本的最佳实践](http://kb.cnblogs.com/page/574767/)
+
+4. [osx 实用命令行](http://blog.topspeedsnail.com/archives/84)
+>PS: 关于 OS X 的命令行设置，放在这里主要是参考 pmset 设置 睡眠 和 硬盘睡眠 的操作
