@@ -6,7 +6,7 @@ categories: 转载
 comments: false
 ---
 
-![](https://cdn.pixabay.com/photo/2016/09/29/13/08/planet-1702788_960_720.jpg)
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1503376848662&di=f1832eeac5f4d1f66919efb47a5a229f&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F14%2F83%2F48%2F80V58PICtps_1024.jpg)
 
 1. [windows 上优雅的安装 node 和 npm](http://imweb.io/topic/57289aa78a0819f17b7d9d5e)
 >PS: 文中提到的`node.exe`在这里下载：[http://nodejs.org/dist/](http://nodejs.org/dist/)
