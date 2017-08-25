@@ -17,3 +17,5 @@ comments: false
 
 4. [osx 实用命令行](http://blog.topspeedsnail.com/archives/84)
 >PS: 关于 OS X 的命令行设置，放在这里主要是参考 pmset 设置 睡眠 和 硬盘睡眠 的操作
+
+5. [[Ubuntu]: sudoers NOPASSWD option not working](https://techglimpse.com/ubuntu-sudoers-nopasswd-option-not-working/)
