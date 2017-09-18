@@ -5,9 +5,6 @@ http://www.bootstrapzero.com
 
 */
 
-@import url(https://fonts.googleapis.com/css?family=Questrial);
-@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
-
 html,
 body {
     width: 100%;
@@ -230,7 +227,7 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+    background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505731326332&di=ca2c4b6c1687f2180c1ffe895027695e&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F9%2F5822c824cd635.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
