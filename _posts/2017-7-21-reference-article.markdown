@@ -19,3 +19,5 @@ comments: false
 >PS: 关于 OS X 的命令行设置，放在这里主要是参考 pmset 设置 睡眠 和 硬盘睡眠 的操作
 
 5. ["Ubuntu": sudoers NOPASSWD option not working](https://techglimpse.com/ubuntu-sudoers-nopasswd-option-not-working/)
+
+5. [搭建自己的 pip 源](http://liuliqiang.info/post/build-your-own-pip-source/)
