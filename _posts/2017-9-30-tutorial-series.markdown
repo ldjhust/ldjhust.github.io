@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "教程 - Shell 程序设计教程"
+title: "教程 - 各种优秀教程集合"
 date: 2017-09-30 17:41
 categories: 教程
 comments: false
