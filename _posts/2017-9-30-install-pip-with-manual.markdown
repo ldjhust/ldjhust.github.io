@@ -11,14 +11,21 @@ comments: false
 1. 先安装 setuptools
 
    a. 从 https://pypi.doubanio.com/simple 下载最新的 setuptools 安装包（xxx.tar.gz）
+   
    b. 解压 tar -xvf xxx.tar.gz
+   
    c. cd 到解压出的目录
+   
    d. 执行 python setup.py install
 
 2. 在安装 pip
 
    a. 从 https://pypi.doubanio.com/simple 下载最新的 pip 安装包 (xxx.tar.gz)
+   
    b. 解压 tar -xvf xxx.tar.gz
+   
    c. cd 到解压出的目录
+   
    d. 执行 python setup.py install
+   
    e. 执行 pip -V 查看版本号以及检验 pip 是否安装成功
