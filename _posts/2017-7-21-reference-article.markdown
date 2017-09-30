@@ -20,4 +20,6 @@ comments: false
 
 5. ["Ubuntu": sudoers NOPASSWD option not working](https://techglimpse.com/ubuntu-sudoers-nopasswd-option-not-working/)
 
-5. [搭建自己的 pip 源](http://liuliqiang.info/post/build-your-own-pip-source/)
+6. [搭建自己的 pip 源](http://liuliqiang.info/post/build-your-own-pip-source/)
+
+7. [使用 supervisor 管理进程](http://liyangliang.me/posts/2015/06/using-supervisor/)
