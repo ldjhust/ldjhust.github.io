@@ -25,3 +25,5 @@ comments: false
 7. [使用 supervisor 管理进程](http://liyangliang.me/posts/2015/06/using-supervisor/)
 
 8. [Python定时任务的实现方式](https://lz5z.com/Python%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F/)
+
+9. [shell如何模块化和复用](http://arganzheng.iteye.com/blog/1174470)
