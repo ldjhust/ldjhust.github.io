@@ -27,3 +27,5 @@ comments: false
 8. [Python定时任务的实现方式](https://lz5z.com/Python%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F/)
 
 9. [shell如何模块化和复用](http://arganzheng.iteye.com/blog/1174470)
+
+10.[centos安装python2.7.11](http://blog.csdn.net/feifeilyj/article/details/52235987)
