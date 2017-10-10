@@ -29,3 +29,5 @@ comments: false
 9. [shell如何模块化和复用](http://arganzheng.iteye.com/blog/1174470)
 
 10.[centos安装python2.7.11](http://blog.csdn.net/feifeilyj/article/details/52235987)
+
+11.[Linux内核版本号命名的规则](http://loris-jand.iteye.com/blog/976121)
