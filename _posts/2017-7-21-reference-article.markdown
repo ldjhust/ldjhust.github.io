@@ -31,3 +31,5 @@ comments: false
 10.[centos安装python2.7.11](http://blog.csdn.net/feifeilyj/article/details/52235987)
 
 11.[Linux内核版本号命名的规则](http://loris-jand.iteye.com/blog/976121)
+
+12.[vlmcsd: Windows KMS 激活服务器搭建及使用](https://liyuans.com/archives/vlmcsd.html)
