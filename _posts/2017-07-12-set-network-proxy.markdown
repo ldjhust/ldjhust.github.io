@@ -34,11 +34,11 @@ sudo pip install <package> --proxy http://<proxy host>:<port>
 Acquire::http::Proxy "http://<proxy host>:<port>"
 ```
 
-4 `ping` `curl`
+4 `ping` `curl` `wget`
 
 ```
 # 设置环境变量 ~/.bash_profile
-export http_proxy=http://<proxy host>:<port>
+export http_proxy=<proxy host>:<port>
 export https_proxy=${http_proxy}
 ```
 
@@ -54,6 +54,13 @@ npm config set registry "https://registry.npm.taobao.org"
 
 ```
 git config --global http.proxy https://<proxy host>:<port>
+```
+
+7. `yum`
+
+```
+# /etc/yum.conf
+proxy=http://<proxy host>:[<proxy port>]
 ```
 
 **持续更新中...**
