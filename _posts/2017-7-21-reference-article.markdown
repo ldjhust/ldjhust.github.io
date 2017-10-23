@@ -33,3 +33,5 @@ comments: false
 11.[Linux内核版本号命名的规则](http://loris-jand.iteye.com/blog/976121)
 
 12.[vlmcsd: Windows KMS 激活服务器搭建及使用](https://liyuans.com/archives/vlmcsd.html)
+
+13.[saltstack 自动化运维神器（二）文件同步](http://conny.blog.51cto.com/3367680/1611542)
