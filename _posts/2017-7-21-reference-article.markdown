@@ -35,3 +35,5 @@ comments: false
 12.[vlmcsd: Windows KMS 激活服务器搭建及使用](https://liyuans.com/archives/vlmcsd.html)
 
 13.[saltstack 自动化运维神器（二）文件同步](http://conny.blog.51cto.com/3367680/1611542)
+
+14.[yum只下载软件不安装的两种方法](http://cyhow.blog.51cto.com/892355/1307053)
