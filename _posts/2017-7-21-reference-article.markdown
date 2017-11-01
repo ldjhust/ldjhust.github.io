@@ -37,3 +37,5 @@ comments: false
 13.[saltstack 自动化运维神器（二）文件同步](http://conny.blog.51cto.com/3367680/1611542)
 
 14.[yum只下载软件不安装的两种方法](http://cyhow.blog.51cto.com/892355/1307053)
+
+15.[使用yum时rpmdb open failed解决方案](http://blog.sina.com.cn/s/blog_6fb8aaeb0101aegn.html)
