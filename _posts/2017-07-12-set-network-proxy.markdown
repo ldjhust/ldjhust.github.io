@@ -63,4 +63,25 @@ git config --global http.proxy https://<proxy host>:<port>
 proxy=http://<proxy host>:[<proxy port>]
 ```
 
+8. `docker`
+参考[为 Docker 设置代理](http://www.jianshu.com/p/26d0ebd86673)
+```
+# 第一步创建 /etc/systemd/system/docker.service.d 文件夹
+# 第二步创建 /etc/systemd/system/docker.service.d/http-proxy.conf 文件 （文件名随意）
+# 第三步在新创建文件中写入如下配置，然后保存退出
+[Service]
+Environment="HTTP_PROXY=http://proxy.example.com:80/"
+# 第三步补充，如果有不需要经过代理的站点，可参考如下配置
+[Service]
+Environment="HTTP_PROXY=http://proxy.example.com:80/" "NO_PROXY=localhost,127.0.0.1,daocloud.io"
+# 第四步刷新systemd的配置
+sudo systemctl daemon-reload
+# 第五步验证配置是否生效
+$ systemctl show --property=Environment docker
+Environment=HTTP_PROXY=http://proxy.example.com:80/
+# 第六步重启docker服务
+$ sudo systemctl restart docker
+# 第七步随意pull无障碍：）
+```
+
 **持续更新中...**
