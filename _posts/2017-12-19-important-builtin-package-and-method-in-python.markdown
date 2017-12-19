@@ -6,6 +6,8 @@ categories: Python
 comments: false
 ---
 
+![](http://b.hiphotos.baidu.com/image/pic/item/7a899e510fb30f24eb37ecc9c195d143ac4b034e.jpg)
+
 | 库名 | 方法名 | 方法用途 |
 | ---  | --- | --- |
 | heapq | nlargest | 返回最大的n个元素 |
