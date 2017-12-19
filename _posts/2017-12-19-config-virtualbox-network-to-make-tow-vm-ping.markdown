@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: "网络 - 两台VirtualBox虚拟机如何通讯"
+date: 2017-12-19 16:14
+categories: 转载
+comments: false
+---
 
 ![](http://img3.imgtn.bdimg.com/it/u=1587293988,596106613&fm=214&gp=0.jpg)
 
