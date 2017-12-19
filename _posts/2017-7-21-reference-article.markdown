@@ -39,3 +39,5 @@ comments: false
 14.[yum只下载软件不安装的两种方法](http://cyhow.blog.51cto.com/892355/1307053)
 
 15.[使用yum时rpmdb open failed解决方案](http://blog.sina.com.cn/s/blog_6fb8aaeb0101aegn.html)
+
+16.[Install VirtualBox guest additions on CentOS 7](https://www.megajason.com/2017/06/10/install-virtualbox-guest-additions-on-centos-7/)
