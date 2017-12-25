@@ -40,7 +40,7 @@ UseDNS no
 sudo systemctl restart sshd
 ```
 
-3. 在本地主机上配置`ssh`公秘钥对（详细步骤参考最后的参考文章，windows可以用putty，*nix直接命令行`ssh-keygen 即可）
+3. 在本地主机上配置`ssh`公秘钥对（详细步骤参考最后的参考文章，windows可以用putty，*nix直接命令行ssh-keygen 即可）
 
 4. 注意`ssh`秘钥登录时，远程`Linux`主机随机反过来一串字符串，本地在**当前用户**的家目录下寻找秘钥进行加密传送到远程`Linux`，然后远程`Linux`按照上面配置
 在**要登录的用户**的家目录下的`.ssh`目录中的`authorized_keys`文件中寻找匹配公钥进行解密，得到的字符串与最初发送出去的字符串进行比对，匹配上则登录成功，反之则
