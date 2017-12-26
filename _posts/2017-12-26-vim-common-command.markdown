@@ -8,15 +8,15 @@ comments: false
 
 <table>
     <tr>
-        <td>VIM 常用命令介绍</td>
+        <td><b>VIM 常用命令介绍</b></td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>末行模式可用命令</td>
+        <td><b>末行模式可用命令</b></td>
         <td></td>
-        <td>编辑常用命令</td>
+        <td><b>编辑常用命令</b></td>
         <td></td>
     </tr>
     <tr>
