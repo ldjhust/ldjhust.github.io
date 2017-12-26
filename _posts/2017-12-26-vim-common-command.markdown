@@ -6,6 +6,8 @@ categories: Linux
 comments: false
 ---
 
+![](http://d.hiphotos.baidu.com/image/pic/item/728da9773912b31b7b69cde38f18367adbb4e1f7.jpg)
+
 <table>
     <tr>
         <td><b>VIM 常用命令介绍</b></td>
