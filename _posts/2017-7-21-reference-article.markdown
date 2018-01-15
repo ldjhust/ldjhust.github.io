@@ -41,3 +41,5 @@ comments: false
 15.[使用yum时rpmdb open failed解决方案](http://blog.sina.com.cn/s/blog_6fb8aaeb0101aegn.html)
 
 16.[Install VirtualBox guest additions on CentOS 7](https://www.megajason.com/2017/06/10/install-virtualbox-guest-additions-on-centos-7/)
+
+17.[Supervisor安装与配置（Linux/Unix进程管理工具）](http://blog.csdn.net/xyang81/article/details/51555473)
