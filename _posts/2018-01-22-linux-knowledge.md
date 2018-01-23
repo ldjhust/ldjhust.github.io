@@ -21,3 +21,9 @@ echo 是一个 shell 命令，> or >> 也是一个 shell 命令，前面的 sudo
    echo x | sudo tee /path/to/file
    echo x | sudo tee -a /path/to/file，-a 相当于 >>
 ```
+
+2 查看进程的 pid 以及 ppid (父进程pid)
+```
+ps -ef 第二列是 pid，第三列是 ppid
+ps -ef | grep xxx 配合 grep 筛选指定进程
+```
