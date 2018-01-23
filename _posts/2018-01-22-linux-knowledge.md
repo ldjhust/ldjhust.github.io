@@ -27,3 +27,14 @@ echo 是一个 shell 命令，> or >> 也是一个 shell 命令，前面的 sudo
 ps -ef 第二列是 pid，第三列是 ppid
 ps -ef | grep xxx 配合 grep 筛选指定进程
 ```
+
+3 链接状态为 Attached 的 screen session
+```
+当我们使用 screen -r <session id/name> 连接一个 screen session 时，如果这个 session 状态为 Attached ，那么它会拒绝你的连接，
+这时我们有两种方案可以处理：
+1. 剃掉前一个正在连接的用户，当然只有当你确定那个用户没有使用，或者就是你之前的连接时这样处理
+   screen -D -r <session id/name>
+   
+2. 改变选项，同时连接上去
+   screen -x <session id/name>
+```
