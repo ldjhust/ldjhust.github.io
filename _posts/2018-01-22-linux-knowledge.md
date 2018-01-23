@@ -38,3 +38,16 @@ ps -ef | grep xxx 配合 grep 筛选指定进程
 2. 改变选项，同时连接上去
    screen -x <session id/name>
 ```
+
+4 免输入 yes 添加 ssh 公钥到 know_hosts 文件
+```
+当我我们通过 ssh 连接到一台新机器的时候，通常会有提示告诉我们是否需要将对方公钥等信息加入 know_hosts 文件，这时我们必须输入 yes，
+因为如果输入 no，此次连接就以失败结束，下面的方案可以让我们不用输入自动将对方公钥加入 know_hosts 文件，当然前提是我们处在一个可以
+信任的网络
+1. 创建 ~/.ssh/config 文件，然后输入以下内容
+    StrictHostKeyChecking no
+2. 调整 ~/.ssh/config 文件权限为 600
+
+PS 如果想在对方 ip 更新后依然不用更新我们的 know_host 文件，可以在 ~/.ssh/config 文件中添加 UserKnownHostsFile /dev/null，然后
+把 ~/.ssh/know_hosts 删除，这样每次连接都是最新，因此也就不存在更新的问题
+```
