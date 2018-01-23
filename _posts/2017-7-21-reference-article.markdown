@@ -43,3 +43,5 @@ comments: false
 16.[Install VirtualBox guest additions on CentOS 7](https://www.megajason.com/2017/06/10/install-virtualbox-guest-additions-on-centos-7/)
 
 17.[Supervisor安装与配置（Linux/Unix进程管理工具）](http://blog.csdn.net/xyang81/article/details/51555473)
+
+18.[Linux 技巧：让进程在后台可靠运行的几种方法](https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/index.html)
