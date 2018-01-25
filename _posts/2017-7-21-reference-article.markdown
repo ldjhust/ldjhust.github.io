@@ -45,3 +45,5 @@ comments: false
 17.[Supervisor安装与配置（Linux/Unix进程管理工具）](http://blog.csdn.net/xyang81/article/details/51555473)
 
 18.[Linux 技巧：让进程在后台可靠运行的几种方法](https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/index.html)
+
+19.[Python 如何将字符串转为字典](http://funhacks.net/2016/04/24/python_%E5%B0%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E4%B8%BA%E5%AD%97%E5%85%B8/)
