@@ -28,7 +28,22 @@ ps -ef 第二列是 pid，第三列是 ppid
 ps -ef | grep xxx 配合 grep 筛选指定进程
 ```
 
-3 链接状态为 Attached 的 screen session
+3 screen 常用命令
+```
+# 新建一个会话
+screen -S <session name>
+
+# 列出所有会话
+screen -list
+
+# 重新连接一个已经存在的会话
+screen -r <pid>/<session name>
+
+# 登录一个别人已经登录的会话共享操作
+screen -x <pid>/<session name>
+```
+
+4 链接状态为 Attached 的 screen session
 ```
 当我们使用 screen -r <session id/name> 连接一个 screen session 时，如果这个 session 状态为 Attached ，那么它会拒绝你的连接，
 这时我们有两种方案可以处理：
@@ -39,7 +54,7 @@ ps -ef | grep xxx 配合 grep 筛选指定进程
    screen -x <session id/name>
 ```
 
-4 免输入 yes 添加 ssh 公钥到 know_hosts 文件
+5 免输入 yes 添加 ssh 公钥到 know_hosts 文件
 ```
 当我我们通过 ssh 连接到一台新机器的时候，通常会有提示告诉我们是否需要将对方公钥等信息加入 know_hosts 文件，这时我们必须输入 yes，
 因为如果输入 no，此次连接就以失败结束，下面的方案可以让我们不用输入自动将对方公钥加入 know_hosts 文件，当然前提是我们处在一个可以
