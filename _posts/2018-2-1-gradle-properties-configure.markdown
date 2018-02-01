@@ -6,6 +6,8 @@ categories: Gradle
 comments: false
 ---
 
+![](http://d.hiphotos.baidu.com/image/pic/item/a044ad345982b2b713b5ad7d3aadcbef76099b65.jpg)
+
 1 配置 .gradle 路径
 ```
 GRADLE_OPTS=-Dgradle.user.home=/yourpath/gradle/.gradle
