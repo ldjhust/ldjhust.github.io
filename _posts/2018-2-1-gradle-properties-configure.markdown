@@ -10,5 +10,5 @@ comments: false
 
 1 配置 .gradle 路径
 ```
-GRADLE_OPTS=-Dgradle.user.home=/yourpath/gradle/.gradle
+gradle.user.home=/path/to/.gradle 
 ```
