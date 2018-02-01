@@ -66,3 +66,8 @@ screen -x <pid>/<session name>
 PS 如果想在对方 ip 更新后依然不用更新我们的 know_host 文件，可以在 ~/.ssh/config 文件中添加 UserKnownHostsFile /dev/null，然后
 把 ~/.ssh/know_hosts 删除，这样每次连接都是最新，因此也就不存在更新的问题
 ```
+
+6 显示一级子目录所占磁盘空间大小
+```
+du -sh *
+```
