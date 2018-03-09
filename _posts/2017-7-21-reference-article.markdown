@@ -51,3 +51,5 @@ comments: false
 20.[Python 单元测试](http://funhacks.net/explore-python/Testing/)
 
 21.[Mac命令行格式化U盘](http://jksoftcn.com/macming-ling-xing-ge-shi-hua-upan.html)
+
+22.[如何修复Windows 10引导记录损坏故障](https://www.sysgeek.cn/fix-windows-10-master-boot-record-corrupted/)
