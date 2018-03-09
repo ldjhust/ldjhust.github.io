@@ -49,3 +49,5 @@ comments: false
 19.[Python 如何将字符串转为字典](http://funhacks.net/2016/04/24/python_%E5%B0%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E4%B8%BA%E5%AD%97%E5%85%B8/)
 
 20.[Python 单元测试](http://funhacks.net/explore-python/Testing/)
+
+21.[Mac命令行格式化U盘](http://jksoftcn.com/macming-ling-xing-ge-shi-hua-upan.html)
