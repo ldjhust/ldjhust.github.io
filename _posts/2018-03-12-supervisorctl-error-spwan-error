@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Linux - 定位supervisorctl启动服务时Error(spwan error)的具体原因"
+date: 2018-03-12 10:28
+categories: Linux
+comments: false
+---
+
+![]()
+
+用`supervisor`托管服务时可能会碰到用`supervisorctl`启动服务时报`Error (spwan error)`，看`supervisord.log`日志文件
+也是看的云里雾里不知道到底是什么导致了这个错误，我们可以通过如下命令来查看到明确到这这个错误的原因：
+
+```
+supervisorctl tail <process name> stdout
+```
+
+PS: 我们可以在`supervisord.conf`配置文件中把默认创建在`/var/run`中的文件改变创建地址在普通用户拥有权限的地方，这样我
+们就不需要通过`sudo`来运行`supervisord`以及`supervisorctl`了。
