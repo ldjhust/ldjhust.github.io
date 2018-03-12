@@ -6,7 +6,7 @@ categories: Linux
 comments: false
 ---
 
-![]()
+![](http://h.hiphotos.baidu.com/image/pic/item/e824b899a9014c0899ee068a067b02087af4f4cc.jpg)
 
 用`supervisor`托管服务时可能会碰到用`supervisorctl`启动服务时报`Error (spwan error)`，看`supervisord.log`日志文件
 也是看的云里雾里不知道到底是什么导致了这个错误，我们可以通过如下命令来查看到明确到这这个错误的原因：
