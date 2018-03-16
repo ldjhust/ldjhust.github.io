@@ -1,0 +1,60 @@
+---
+layout: post
+title: "docker - docker 常用配置"
+date: 2018-03-16 10:04
+categories: docker
+comments: false
+---
+
+![](http://a.hiphotos.baidu.com/image/pic/item/0dd7912397dda144a5db01a2beb7d0a20df486cb.jpg)
+
+1 `CentOS 7`下配置`docker`网络代理
+```
+1. 创建 docker.service.d 文件夹
+mkdir /etc/systemd/system/docker.service.d
+
+2. 创建代理文件并输入相关内容
+a) 如果是 http 代理，则在上面文件夹中创建 http-proxy.conf 文件，并输入以下内容
+[Service]
+Environment="HTTP_PROXY=http://example.proxy.com:80/"
+
+b) 如果是 https 代理，则在上面文件中创建 https-proxy.conf 文件，并输入一下内容
+[Service]
+Environment="HTTPS_PROXY=https://example.proxy.com:443/"
+
+3. 如果有不需要通过代理访问的内部网站
+a) 在 http 代理下
+[Service]
+Environment="HTTP_PROXY=http://example.proxy.com:80/" "NO_PROXY=localhost,127.0.0.1,docker-registry.somecorporation.com"
+
+b) 在 https 代理下
+Environment="HTTPS_PROXY=http://example.proxy.com:443/" "NO_PROXY=localhost,127.0.0.1,docker-registry.somecorporation.com"
+
+4. 刷新并重启 docker 服务
+systemctl daemon-reload
+systemctl restart docker
+```
+
+2 `CentOS 7`下配置 `docker daemon` 监听来自客户端的连接
+```
+默认情况下 docker 监听一个 UNIX socker 等待来自本机客户端的连接，我们也可以配置 docker daemon 监听 ip:port 获取来自远程客户端的连接
+1. 第一步编译 docker 服务文件
+systemctl edit docker
+
+2. 输入如下内容
+[Service]
+ExecStart=
+ExecStart=/usr/bin/dockerd -H unix:///var/run/docker.sock -H tcp://0.0.0.0:2375
+
+3. 重新加载 systemctl 配置文件
+systemctl daemon-reload
+
+4. 重启 docker 服务
+systemctl restart docker
+
+5. 可以查看一下 dockerd 是否以我们预期的状态运行
+ps aux | grep docker
+
+6. 远程客户端通过 -H 选项连接这里的 docker daemon
+docker -H ip:port <command>
+```
