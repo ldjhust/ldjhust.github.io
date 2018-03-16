@@ -35,7 +35,7 @@ systemctl daemon-reload
 systemctl restart docker
 ```
 
-2 `CentOS 7`下配置 `docker daemon` 监听来自客户端的连接
+2 `CentOS 7`下配置 `docker daemon` 监听来自远程客户端的连接
 ```
 默认情况下 docker 监听一个 UNIX socker 等待来自本机客户端的连接，我们也可以配置 docker daemon 监听 ip:port 获取来自远程客户端的连接
 1. 第一步编译 docker 服务文件
