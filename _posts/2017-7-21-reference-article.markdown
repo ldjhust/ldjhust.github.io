@@ -55,3 +55,5 @@ comments: false
 22.[如何修复Windows 10引导记录损坏故障](https://www.sysgeek.cn/fix-windows-10-master-boot-record-corrupted/)
 
 23.[使用Docker搭建git服务Gogs](https://www.jianshu.com/p/4e43bda3e1f2)
+
+24.[使用kubeadm安装Kubernetes 1.9](https://blog.frognew.com/2017/12/kubeadm-install-kubernetes-1.9.html)
