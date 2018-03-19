@@ -89,4 +89,7 @@ echo hello world
 echo !ls:1
 echo !ls:2
 echo !ls:3
+
+# 同时 !ls:* 表示 ls 那一条命令的所有参数
+echo !ls:*
 ```
