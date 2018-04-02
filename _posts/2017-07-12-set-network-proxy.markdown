@@ -23,6 +23,12 @@ gem install <package> --http-proxy http://<proxy host>:<port>
 ```
 # 安装库时提供代理
 sudo pip install <package> --proxy http://<proxy host>:<port>
+
+# 或者在配置文件中
+mkdir $HOME/.pip
+vim $HOME/.pip/pip.conf 输入如下内容
+[global]
+proxy=http://host:port
 ```
 
 3 `apt`
@@ -31,32 +37,38 @@ sudo pip install <package> --proxy http://<proxy host>:<port>
 Acquire::http::Proxy "http://<proxy host>:<port>"
 ```
 
-4 `ping` `curl` `wget`
+4 `ping`  `wget`
 ```
 # 设置环境变量 ~/.bash_profile
 export http_proxy=<proxy host>:<port>
 export https_proxy=${http_proxy}
 ```
 
-5 `npm`
+5 `curl`
+```
+# 使用 -x 选项指定代理
+curl -x http://host:port ...
+```
+
+6 `npm`
 ```
 npm config set https-proxy "https://<proxy host>:<port>/"
 npm config set proxy "http://<proxy host>:<port>/"
 npm config set registry "https://registry.npm.taobao.org"
 ```
 
-6 `git`
+7 `git`
 ```
 git config --global http.proxy https://<proxy host>:<port>
 ```
 
-7 `yum`
+8 `yum`
 ```
 # /etc/yum.conf
 proxy=http://<proxy host>:[<proxy port>]
 ```
 
-8 `docker`
+9 `docker`
 
 参考[为 Docker 设置代理](http://www.jianshu.com/p/26d0ebd86673)
 ```
