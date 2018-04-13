@@ -6,7 +6,7 @@ categories: Git
 comments: false
 ---
 
-![]()
+![](http://a.hiphotos.baidu.com/image/pic/item/902397dda144ad34e98003fedca20cf431ad8588.jpg)
 
 1. 在远程创建`Git`仓库并复制地址
 ```
