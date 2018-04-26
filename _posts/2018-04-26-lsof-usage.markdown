@@ -7,7 +7,7 @@ comments: false
 ---
 
 
-![]()
+![](http://d.hiphotos.baidu.com/image/pic/item/bd315c6034a85edff62cdd7045540923dc5475c4.jpg)
 
 
 1. 查看某个进程打开了哪些文件
