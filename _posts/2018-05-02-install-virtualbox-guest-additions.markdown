@@ -17,13 +17,13 @@ su - root
 
 2. 更新`kernel`
 ```
-## Fedora 28/27/26/25/24/23/22 ##
+对于 Fedora 28/27/26/25/24/23/22
 dnf update kernel*
 
-## Fedora 21/20/19/18/17, CentOS/RHEL 7/6 ##
+对于 Fedora 21/20/19/18/17, CentOS/RHEL 7/6
 yum update kernel*
 
-# 更新之后需要重启
+更新之后需要重启
 reboot
 ```
 
@@ -35,28 +35,28 @@ mount -r /dev/cdrom /media/VirtualBoxGuestAdditions
 
 4. 安装`epel-release`
 ```
-## CentOS 7 and Red Hat (RHEL) 7 ##
+对于 CentOS 7 and Red Hat (RHEL) 7
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
-## CentOS 6 and Red Hat (RHEL) 6 ##
+对于 CentOS 6 and Red Hat (RHEL) 6
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
 ```
 
 5. 安装依赖包
 ```
-## Fedora 28/27/26/25/24/23/22 ##
+对于 Fedora 28/27/26/25/24/23/22
 dnf install gcc kernel-devel kernel-headers dkms make bzip2 perl
 
-## Fedora 21/20/19/18/17, CentOS/RHEL 7/6 ##
+对于 Fedora 21/20/19/18/17, CentOS/RHEL 7/6
 yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
 ```
 
 6. 设置环境变量
 ```
-## Current running kernel on Fedora 28/27/26/25/24/23/22, CentOS 7/6 and Red Hat (RHEL) 7/6 ##
+对于 Current running kernel on Fedora 28/27/26/25/24/23/22, CentOS 7/6 and Red Hat (RHEL) 7/6
 KERN_DIR=/usr/src/kernels/`uname -r`/build
 
-## Export KERN_DIR ##
+对于 Export KERN_DIR
 export KERN_DIR
 ```
 
