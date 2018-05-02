@@ -66,4 +66,5 @@ echo ${string/%substring/replacement}
 
 应用举例：
 1 获取文件名：echo ${filename%.*}
+
 2 获取文件拓展名：echo ${filename##*.}
