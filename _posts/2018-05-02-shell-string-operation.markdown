@@ -7,7 +7,7 @@ comments: false
 ---
 
 
-![]()
+![](http://a.hiphotos.baidu.com/image/pic/item/503d269759ee3d6d453aab8b48166d224e4adef5.jpg)
 
 1. 计算字符串长度
 ```
