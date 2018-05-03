@@ -15,7 +15,7 @@ comments: false
 su - root
 ```
 
-2. 更新`kernel`
+2. 更新`kernel`  
 ```
 对于 Fedora 28/27/26/25/24/23/22
 dnf update kernel*
@@ -27,13 +27,13 @@ yum update kernel*
 reboot
 ```
 
-3. 挂载`VirtualBox Guest Additions`
+3. 挂载`VirtualBox Guest Additions`  
 ```
 mkdir /media/VirtualBoxGuestAdditions
 mount -r /dev/cdrom /media/VirtualBoxGuestAdditions
 ```
 
-4. 安装`epel-release`
+4. 安装`epel-release`  
 ```
 对于 CentOS 7 and Red Hat (RHEL) 7
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
