@@ -57,3 +57,5 @@ comments: false
 23.[使用Docker搭建git服务Gogs](https://www.jianshu.com/p/4e43bda3e1f2)
 
 24.[使用kubeadm安装Kubernetes 1.9](https://blog.frognew.com/2017/12/kubeadm-install-kubernetes-1.9.html)
+
+25.[CentOS/Linux 解决 SSH 连接慢](https://blog.csdn.net/doiido/article/details/43793391)
